@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<configuration>
+<property>
+	<name>yarn.resourcemanager.hostname</name>
+	<value>linux05.xiangge.com</value>
+</property>
+<property>
+	<name>yarn.nodemanager.aux-services</name>
+	<value>mapreduce_shuffle</value>
+</property>
+<property>
+	<name>yarn.log-aggregation-enable</name>
+	<value>true</value>
+</property>
+<property>
+	<name>yarn.log-aggregation.retain-seconds</name>
+	<value>86400</value>
+</property>
+  <property>
+    <name>yarn.log.server.url</name>
+    <value>http://linux05.xiangge.com:19888/jobhistory/logs
+	</value>
+  </property>
+</configuration>
